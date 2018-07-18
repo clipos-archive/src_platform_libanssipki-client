@@ -1,0 +1,14 @@
+Pour la v1 (Angelus):
+  * Relecture du code
+  * Liste des méchanismes de signature en fonction des méchanismes
+    disponibles sur la ressource P11.
+  * Améliorer la moulinette de tests.
+  * Gestion de certificat exotiques (OID et extensions genre SAN OtherName)
+  * GUI basique ?
+
+Possibilités d'amélioration:
+  * Gestion de la révocation de certificats et génération de CRLs
+  * Gestion du CA PathLen Constraint
+  * Gestion de l'heure dans les dates de validité.
+  * Génération de clés SSH
+

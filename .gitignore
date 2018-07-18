@@ -1,0 +1,17 @@
+/CMakeCache.txt
+/CMakeFiles
+/cmake_install.cmake
+/Makefile
+/anssipkiPYTHON_wrap.cxx
+.deps
+.libs
+*.la
+*.so
+*.lo
+*.o
+*.pyc
+*.mo
+/build
+/anssipki_wrap.cpp
+/cpp_src/pkcs11/p11-helper.cc.orig
+/libanssipki/anssipki.py

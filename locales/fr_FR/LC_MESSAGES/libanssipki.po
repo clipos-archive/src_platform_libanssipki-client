@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+
+msgid "TEMPLATE_NO_CERTIFICATE_SECTION"
+msgstr "Erreur: le fichier %s ne contient pas de section [CERTIFICATE]"
+
+msgid "TEMPLATE_PARENT_SECTION_INVALID_KEY"
+msgstr "Erreur: seul l'option 'template' est autorisee dans la section [PARENT]  %s"
+
+msgid "TEMPLATE_MULTIPLE_PARENT"
+msgstr "Erreur: un template ne doit pas avoir avoir plusieurs templates parents  : %s"
+
+msgid "TEMPLATE_NOT_FOUND"
+msgstr "Erreur: le template '%s' n'a pas ete trouve"
+
+
+

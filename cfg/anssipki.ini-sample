@@ -1,0 +1,43 @@
+[CONFIGURATION]
+# DB_DIR : path to store the Cache database
+DB_DIR=~/.anssipki/databases/
+# TEMPLATES_DIR : path to user defined templates
+TEMPLATES_DIR=~/.anssipki/templates/
+# PKI_NAME : You work on multiple PKI by changing the PKI_NAME
+PKI_NAME=default
+# SIGNATURE_CONFIRMATION : Show the certificate and ask for signature confirmation
+SIGNATURE_CONFIRMATION=no
+# Show extra information
+VERBOSE=yes
+
+# Use the proxy by default
+USE_P11PROX=True
+
+# UNIQUE_DN
+#   * ALL_CA : Stop if a certificate with same DN is found in all the CA tree
+#   * PARENT_CA : Stop if a certificate with same DN in the issuerca children
+#   * ALLOW_MULTIPLE : Don't check
+UNIQUE_DN=PARENT_CA
+
+# CRL_NEXT_UPDATE_DAYS_NB : Set the number of days between two updates
+# Default : 30
+
+## HOST PKCS#11 RESOURCE ##
+# PKCS11_HOST_PIN : Set the PKCS#11 PIN
+
+# PKCS11_HOST_MODULE : Set the PKCS#11 module to use
+
+# PKCS11_HOST_SLOT : Set the PKCS#11 slot to use
+
+# PKCS11_HOST_LABEL : Set the PKCS#11 label to use
+
+## SMARTCARD PKCS#11 RESOURCE ##
+# PKCS11_SMARTCARD_PIN : Set the PKCS#11 PIN for smartcard
+
+# PKCS11_SMARTCARD_MODULE : Set the PKCS#11 module to use for smartcard
+
+# PKCS11_SMARTCARD_SLOT : Set the PKCS#11 slot to use  for smartcard
+
+# PKCS11_SMARTCARD_LABEL : Set the PKCS#11 label to use for smartcard
+
+

@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+
+msgid "TEMPLATE_NO_CERTIFICATE_SECTION"
+msgstr "Error: Can't find group [CERTIFICATE] in template file : %s"
+
+msgid "TEMPLATE_PARENT_SECTION_INVALID_KEY"
+msgstr "Error: only 'template' option is allowed in [PARENT] section : %s"
+
+msgid "TEMPLATE_MULTIPLE_PARENT"
+msgstr "Error: multiple parent template are not allowed : %s"
+
+msgid "TEMPLATE_NOT_FOUND"
+msgstr "Error: template '%s' was not found%s"
+
